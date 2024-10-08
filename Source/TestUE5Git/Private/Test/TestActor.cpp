@@ -20,6 +20,7 @@ void ATestActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	MeshComp->AddImpulse(GetActorLocation());
 }
 
 // Called every frame
